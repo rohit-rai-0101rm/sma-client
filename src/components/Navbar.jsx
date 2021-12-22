@@ -4,7 +4,6 @@ import { IoMdAdd, IoMdSearch } from 'react-icons/io';
 
 const Navbar = ({  searchTerm, setSearchTerm,user }) => {
     const navigate = useNavigate()
-    user="rohit"
     if (!user) return null
     console.log(user.image)
 
