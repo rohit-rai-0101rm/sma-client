@@ -50,6 +50,21 @@ const PinDetails = ({ user }) => {
               alt="user-post"
             />
           </div>
+          <div className="w-full p-5 flex-1 xl:min-w-620">
+            <div className="flex items-center justify-between">
+              <div className="flex gap-2 items-center">
+                <a
+                  href={`${pinDetail.image.asset.url}?dl=`}
+                  download
+                  className="bg-secondaryColor p-2 text-xl rounded-full flex items-center justify-center text-dark opacity-75 hover:opacity-100"
+                >
+                    <MdDownloadForOffline />
+                </a>
+              </div>
+              </div>
+              </div>
+              
+            
           </div>
     )
 }
