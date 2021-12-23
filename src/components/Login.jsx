@@ -33,7 +33,7 @@ const Login = () => {
             googleId,
             imageUrl
         }))
-
+        navigate('/')
 
     }
     return (
